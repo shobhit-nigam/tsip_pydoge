@@ -1,0 +1,4 @@
+atlantic 235 artic 437
+indian 5686 
+pacific 7643          panasian 78
+oceanic     842

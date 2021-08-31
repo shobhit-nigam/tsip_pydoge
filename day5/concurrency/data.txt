@@ -1,0 +1,6 @@
+some lines
+at the start
+some morehi
+hello
+one more line
+last line
