@@ -1,0 +1,8 @@
+{% extends "main.html" %}
+
+{% block content %}
+	<h1>avengers are </h1>
+	{% for k, v in av.items() %}
+	<div><p>for {{ k }} strength is <b>{{ v }}</b></p></div>
+	{% endfor %}
+{% endblock %}

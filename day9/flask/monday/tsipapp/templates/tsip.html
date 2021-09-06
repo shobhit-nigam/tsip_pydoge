@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>hi</title>
+	</head>
+	<body>
+		{% if title %}
+		<h1>hello {{ user.name }}</h1>
+		{% else %}
+		<h1>welome from {{ user.name }}</h1>
+		{% endif %}
+
+		<h1> the avengers are </h1>
+		{% for key, val in av.items() %}
+		<div><p>for {{ key }} value is {{ val }}</p></div>
+		{% endfor %}
+	</body>
+</html>
